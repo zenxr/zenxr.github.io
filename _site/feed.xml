@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-13T07:36:05+01:00</updated><id>http://localhost:4000/</id><title type="html">Cody’s Page</title><subtitle>Cody Stephenson's personal page. Uses Jekyll for generating static pages.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-13T17:26:38+01:00</updated><id>http://localhost:4000/</id><title type="html">Cody’s Page</title><subtitle>Cody Stephenson's personal page. Uses Jekyll for generating static pages.
 </subtitle><entry><title type="html">MacBook Adventure</title><link href="http://localhost:4000/blog/2017/11/13/macbook/" rel="alternate" type="text/html" title="MacBook Adventure" /><published>2017-11-13T00:00:00+01:00</published><updated>2017-11-13T00:00:00+01:00</updated><id>http://localhost:4000/blog/2017/11/13/macbook</id><content type="html" xml:base="http://localhost:4000/blog/2017/11/13/macbook/">&lt;p&gt;While browsing around Craigslist a few days ago I found an ad for a 2011 Macbook Pro 15” for $250. Most of these ads are scams/bots, but I always attempt to contact the seller via a spam email account on the rare chance that I may actually get something for a steal. While looking at the pictures, I could tell the machine was physically in great shape.&lt;/p&gt;
 
 &lt;h3 id=&quot;response-from-the-seller&quot;&gt;Response from the seller&lt;/h3&gt;
@@ -77,7 +77,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/img/blog_images/dndbot.png&quot; alt=&quot;alt text&quot; title=&quot;bot screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;osrs-bot-1&quot;&gt;OSRS Bot&lt;/h3&gt;
+&lt;h3 id=&quot;ow-rss-bot&quot;&gt;OW RSS bot&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;bot type: &lt;a href=&quot;https://github.com/Rapptz/discord.py&quot;&gt;discord.py&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;github link: &lt;a href=&quot;https://github.com/zenxr/discord_rss_bot&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
