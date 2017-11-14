@@ -18,4 +18,10 @@ I'm writing some bash scripts.
 2. The other script (because I'm scrub and haven't properly set up jekyll yet) just pulls the latest changes, and places the `_site` folder generated as `/var/www/html`.
 3. Then I can use a chronjob to automatically run the outer script.
 
+---
+### Update
+I ended up only creating one script. It checks the remote github repo's latest push vs the current version of the local repo. If changes are found, it
+recompiles the jekyll site, and moves the \_site folder to /var/www/html while displaying some pretty text to the user. This could easily be made
+a cronjob, it just isn't currently as it isnt a priority.
+
 *I'm actually writing this post to see if the scripts will work properly right now.*
