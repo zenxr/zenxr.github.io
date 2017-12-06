@@ -5,10 +5,9 @@ description: >
   Cody Stephenson's personal page. Uses Jekyll for generating static pages.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://aksakalli.github.io/jekyll-doc-theme # the base hostname & protocol for your site
+url: https://zenxr.github.io/jekyll_codystephenson/ # the base hostname & protocol for your site
 git_address: https://github.com/zenxr
-git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
-
+git_edit_address: https://github.com/zenxr/jekyll_codystephenson/
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap
 
