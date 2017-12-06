@@ -27,4 +27,4 @@ I ended up only creating one script. It checks the remote github repo's latest p
 recompiles the jekyll site, and moves the \_site folder to /var/www/html while displaying some pretty text to the user. This could easily be made
 a cronjob, it just isn't currently as it isnt a priority.
 
-![alt text](/img/blog_images/script.png "script screenshot")
+![alt text]({{site.baseurl}}/img/blog_images/script.png "script screenshot")
