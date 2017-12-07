@@ -12,7 +12,7 @@ git_edit_address: https://github.com/zenxr/jekyll_codystephenson/
 # comment out this to use default Bootstrap
 
 #bootwatch: paper
-bootwatch: slate
+bootwatch: solar
 
 # Build settings
 markdown: kramdown
