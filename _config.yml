@@ -4,7 +4,7 @@ email: cdystphnsn@gmail.com
 description: >
   Cody Stephenson's personal page. Uses Jekyll for generating static pages.
 
-baseurl: "/jekyll_codystephenson/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://zenxr.github.io # the base hostname & protocol for your site
 git_address: https://github.com/zenxr
 git_edit_address: https://github.com/zenxr/jekyll_codystephenson/
