@@ -40,7 +40,7 @@ sectionid: blog
 
         <div class="col-md-8">
             <div class="inner-content">
-		        <h1>All Other Posts</h1> {% for page in site.categories.projects %}
+		        <h1>All Projects Posts</h1> {% for page in site.categories.projects %}
 		        <p>
 		            <strong><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></strong>
 		            <span>on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }}{% endif %}</span>
