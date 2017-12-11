@@ -3,6 +3,7 @@ layout: post
 title:  "Blog Creation!"
 date:   2017-11-10
 author: Cody Stephenson
+category: projects
 ---
 So I've finally moved over to jekyll. I've wanted to set it up for blogging for a while.
 

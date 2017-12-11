@@ -1,10 +1,11 @@
 ---
+title: Blog
 layout: default
+sectionid: blog
 ---
 
 <div class="container">
     <div class="row">
-
         <div class="col-md-4">
             <div class="well">
                 <h4>CATEGORIES</h4>
@@ -28,7 +29,7 @@ layout: default
             <div class="well">
                 <h4>RECENT POSTS</h4>
                 <ul class="list-unstyled post-list-container">
-                    {% for post in site.posts limit:5 %}
+                    {% for post in site.posts limit:10 %}
                     <li><a href="{{ post.url | prepend: site.baseurl }}" {% if page.title==post.title %} class="active" {% endif %}>{{ post.title }}</a></li>
                     {% endfor %}
                     <li><a href="{{ "/allposts" | prepend: site.baseurl }}">All posts ...</a></li>
@@ -37,26 +38,16 @@ layout: default
         </div>
 
         <div class="col-md-8">
-            <h1>{{ page.title }}</h1>
-            <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-            <div  id="markdown-content-container">{{ content }}</div>
-            <hr>
-            <ul class="pager">
-                {% if page.previous %}
-                <li class="previous">
-                    <a href="{{ page.previous.url | prepend: site.baseurl }}">
-                        <span aria-hidden="true">&larr;</span> Older
-                    </a>
-                </li>
-                {% endif %} {% if page.next %}
-                <li class="next">
-                    <a href="{{ page.next.url | prepend: site.baseurl }}">
-                      Newer <span aria-hidden="true">&rarr;</span>
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
+            <div class="inner-content">
+		        <h1>All Other Posts</h1> {% for page in site.categories.other %}
+		        <p>
+		            <strong><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></strong>
+		            <span>on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }}{% endif %}</span>
+		        </p>
+		        {% endfor %}
+		    </div>
         </div>
 
     </div>
 </div>
+

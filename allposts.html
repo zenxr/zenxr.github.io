@@ -4,14 +4,51 @@ layout: default
 sectionid: blog
 ---
 
-
 <div class="container">
-    <div class="inner-content">
-        <h1>All Posts</h1> {% for page in site.posts %}
-        <p>
-            <strong><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></strong>
-            <span>on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }}{% endif %}</span>
-        </p>
-        {% endfor %}
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="well">
+                <h4>CATEGORIES</h4>
+                <ul class="list-unstyled post-list-container">
+                    {% for category in site.categories %}
+                    <li><h6>{{ category | first | capitalize}}</h6>
+                        <ul>
+                            {% for posts in category %}
+                            {% for post in posts limit:4%}
+                            {% if post.url %} 
+                            <li><a href="{{ post.url | prepend: site.baseurl }}" {% if page.title==post.title %} class="active" {% endif %}>{{ post.title }}</a></li>
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+                            <li><a href="/{{ category | first | prepend: site.baseurl }}.html">All {{ category | first }} posts ...</a></li>
+                        </ul>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="well">
+                <h4>RECENT POSTS</h4>
+                <ul class="list-unstyled post-list-container">
+                    {% for post in site.posts limit:10 %}
+                    <li><a href="{{ post.url | prepend: site.baseurl }}" {% if page.title==post.title %} class="active" {% endif %}>{{ post.title }}</a></li>
+                    {% endfor %}
+                    <li><a href="{{ "/allposts" | prepend: site.baseurl }}">All posts ...</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="inner-content">
+		        <h1>All Posts</h1> {% for page in site.posts %}
+		        <p>
+		            <strong><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></strong>
+		            <span>on {{ page.date | date: "%B %e, %Y" }} {% if page.author %} by {{ page.author }}{% endif %}</span>
+		        </p>
+		        {% endfor %}
+		    </div>
+        </div>
+
     </div>
 </div>
+
