@@ -11,7 +11,7 @@ sectionid: blog
                 <h4>CATEGORIES</h4>
                 <ul class="list-unstyled post-list-container">
                     {% for category in site.categories %}
-                    <li><h6>{{ category | first | capitalize}}</h6>
+                    <li><b>{{ category | first | capitalize}}</b>
                         <ul>
                             {% for posts in category %}
                             {% for post in posts limit:4%}
