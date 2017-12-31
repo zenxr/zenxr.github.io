@@ -15,6 +15,7 @@ A few friends and I have been watching a new MMORPG called Dauntless. We played 
 * github link: [here](https://github.com/zenxr/dauntless_watcher_bot)
 
 **Description**
+
 I had an excuse to make another bot! I knew that the only possible way to ensure a quick reation time without constantly monitoring the reddit post was to have a bot do it for me. The bot checks for new messages every 60 seconds and sends them to our discord server if a new message is found.
 
 1. The bot checks [this post](https://www.reddit.com/r/dauntless/comments/7jl6k3/reminder_sellingbegging_codes_is_not_allowed_if/?sort=new) every 60 seconds for updates.
