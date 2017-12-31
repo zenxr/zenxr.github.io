@@ -24,5 +24,6 @@ I had an excuse to make another bot! I knew that the only possible way to ensure
 
 ### Success!
 As of now, 6 people including myself have managed to get a key. The game still needs a lot of work, but it has potential.
+
 ![alt text]({{site.baseurl}}/img/blog_images/discord_reddit_success.png "bot screenshot")
 ![alt text]({{site.baseurl}}/img/blog_images/discord_reddit_success2.png "bot screenshot")
