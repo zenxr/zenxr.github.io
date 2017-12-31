@@ -22,6 +22,8 @@ I had an excuse to make another bot! I knew that the only possible way to ensure
 3.	Next, a message is sent to a specific text channel where I'd like the messages displayed. If it is configured to tag users to alert them, they'll be @mentioned in the post.
 
 
+----
+
 ### Success!
 As of now, 6 people including myself have managed to get a key. The game still needs a lot of work, but it has potential.
 
