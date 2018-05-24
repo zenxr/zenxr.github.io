@@ -50,6 +50,7 @@ defaults:
 collections:
   classes:
   work_history:
+  education:
   docs:
     permalink: /:collection/:path/
     output: true
