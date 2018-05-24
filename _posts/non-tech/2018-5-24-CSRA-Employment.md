@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Graduation and New Job!"
 date: 2018-5-24
