@@ -5,6 +5,10 @@ date:   2017-11-13
 author: Cody Stephenson
 category: projects
 ---
+
+### Note:
+***I'm no longer using the VPS to host this page (though it does still host a variety of other projects). As such, I never finished this problem as a better solution was found. If I decide I want to do more complex things with this domain, I'll likely resume this project***
+
 This web server runs on a VPS I'm renting from [SSD Nodes](https://www.ssdnodes.com). However, I'd like to be able to add posts without having to ssh into the VM.
 
 ### Ideal Interface
@@ -25,8 +29,8 @@ I'm writing some bash scripts.
 ---
 ### Update
 I ended up only creating one script. It checks the remote github repo's latest push vs the current version of the local repo. If changes are found, it
-recompiles the jekyll site, and moves the \_site folder to /var/www/html while displaying some pretty text to the user. This could easily be made
-a cronjob, it just isn't currently as it isnt a priority.
+recompiles the jekyll site, and moves the `\_site` folder to `/var/www/html` while displaying some pretty text to the user. This could easily be made
+a cronjob, it just isn't currently as it isn't a priority.
 
 ```bash
 # Cody Stephenson
