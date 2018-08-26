@@ -21,7 +21,7 @@ sectionid: blog
                             {% endif %}
                             {% endfor %}
                             {% endfor %}
-                            <li><a href="/{{ category | first | prepend: site.baseurl }}.html">All {{ category | first }} posts ...</a></li>
+                            <li><a href="/all{{ category | first | prepend: site.baseurl }}">All {{ category | first }} posts ...</a></li>
                         </ul>
                     </li>
                     {% endfor %}
